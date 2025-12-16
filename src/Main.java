@@ -21,7 +21,6 @@ public class Main {
     private final static int BOARD_LIMIT = 9;
 
     public static void main(String[] args) {
-
         final var position = Stream.of(args)
                 .collect(toMap(
                         k -> k.split(";")[0],
